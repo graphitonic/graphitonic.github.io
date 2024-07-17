@@ -1,157 +1,525 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Graphi Tonic</title>
-    <link rel="icon" type="image/png" href="/favicon.ico" />
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EVP3G4KKX7"></script>
+    <meta content='text/html;charset=UTF-8' http-equiv='Content-Type'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'/>
+    <title>GraphiTonic | Expert Graphic Design, Video Editing, and Web Development Services</title>
+    <link rel="icon" type="image/ico" href="favicon.ico" />
+    <meta name="description" content="GraphiTonic offers expert graphic design, video editing, and web development services. Transform your ideas into reality with our creative solutions and professional team. Contact us today!"/>
+    <meta content='https://www.graphitonic.pro/' property='og:url'/>
+    <meta content='GraphiTonic | Expert Graphic Design, Video Editing, and Web Development Services' property='og:title'/>
+    <meta content='GraphiTonic offers expert graphic design, video editing, and web development services. Transform your ideas into reality with our creative solutions and professional team. Contact us today!' property='og:description'/>
+    <meta content='website' property='og:type'/>
+    <meta content='GraphiTonic | Expert Graphic Design, Video Editing, and Web Development Services' property='og:site_name'/>
+    <meta content='Kaniskajit Basumatary' name='Author'/>
+    <meta content='in' name='geo.country'/>
+    <meta content='GraphiTonic' name='twitter:site'/>
+    <meta content='@graphitonic' name='twitter:creator'/>
+    <meta content='index,follow' name='robots'/>
+    <meta content='2 days' name='revisit-after'/>
+    <meta content='2 days' name='revisit'/>
+    <meta content='never' name='expires'/>
+    <meta content='always' name='revisit'/>
+    <meta content='global' name='distribution'/>
+    <meta content='general' name='rating'/>
+    <meta content='true' name='MSSmartTagsPreventParsing'/>
+    <meta content='index, follow' name='googlebot'/>
+    <meta content='follow, all' name='Googlebot-Image'/>
+    <meta content='follow, all' name='msnbot'/>
+    <meta content='follow, all' name='Slurp'/>
+    <meta content='follow, all' name='ZyBorg'/>
+    <meta content='follow, all' name='Scooter'/>
+    <meta content='all' name='spiders'/>
+    <meta content='all' name='WEBCRAWLERS'/>
+    <meta content='aeiwi, alexa, alltheWeb, altavista, aol netfind, anzwers, canada, directhit, euroseek, excite, overture, go, google, hotbot. infomak, kanoodle, lycos, mastersite, national directory, northern light, searchit, simplesearch, Websmostlinked, webtop, what-u-seek, aol, yahoo, webcrawler, infoseek, excite, magellan, looksmart, bing, cnet, googlebot' name='search engines'/>
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-    
-      gtag('config', 'G-EVP3G4KKX7');
+        document.documentElement.classList.remove('no-js');
+        document.documentElement.classList.add('js');
     </script>
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
-    <style>
-        body {
-          margin: 0;
-        }
-        .content-area {
-            height: 100vh;
-            width: 100%;
-            text-align: center;
-            font-family: "Architects Daughter";
-        }
-
-        .d-flex {
-            display: flex;
-        }
-        .align-items-center {
-            align-items: center;
-        }
-        .justify-content-center {
-            justify-content: center;
-        }
-
-        /* make keyframes that tell the start state and the end state of our object */
-        @-webkit-keyframes fadeIn {
-            from {
-                opacity: 0;
-            }
-            to {
-                opacity: 1;
-            }
-        }
-        @-moz-keyframes fadeIn {
-            from {
-                opacity: 0;
-            }
-            to {
-                opacity: 1;
-            }
-        }
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-            }
-            to {
-                opacity: 1;
-            }
-        }
-
-        .fade-in {
-            opacity: 0; /* make things invisible upon start */
-            -webkit-animation: fadeIn ease-in 1; /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
-            -moz-animation: fadeIn ease-in 1;
-            animation: fadeIn ease-in 1;
-
-            -webkit-animation-fill-mode: forwards; /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
-            -moz-animation-fill-mode: forwards;
-            animation-fill-mode: forwards;
-
-            -webkit-animation-duration: 1s;
-            -moz-animation-duration: 1s;
-            animation-duration: 1s;
-            &.one {
-                -webkit-animation-delay: 0.7s;
-                -moz-animation-delay: 0.7s;
-                animation-delay: 0.7s;
-            }
-
-            &.two {
-                -webkit-animation-delay: 1.2s;
-                -moz-animation-delay: 1.2s;
-                animation-delay: 1.2s;
-            }
-            &.three {
-                -webkit-animation-delay: 1.7s;
-                -moz-animation-delay: 1.7s;
-                animation-delay: 1.7s;
-            }
-        }
-
-        .logo {
-            max-width: 480px;
-            width: 80%;
-            display: block;
-            margin: 0 auto;
-        }
-
-        h3 {
-            font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
-                "Courier New", monospace;
-            letter-spacing: 1px;
-            text-transform: uppercase;
-            font-weight: 100;
-            color: rgba(#000, 0.8);
-        }
-        .social {
-            ul {
-                list-style-type: none;
-                padding: 0;
-                li {
-                    display: inline-block;
-                    margin: 5px;
-                    a {
-                        img {
-                            width: 28px;
-                            &:hover {
-                                opacity: 0.7;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        .copy-right {
-            position: absolute;
-            bottom: 0;
-            right: 0;
-            left: 0;
-            text-align: center;
-            padding-bottom: 15px;
-            font-size: 12px;
-            color: rgba(#000, 0.5);
-            font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
-                "Courier New", monospace;
-        }
-
-    </style>
 </head>
-<body>
 
-      <div class="content-area d-flex align-items-center justify-content-center">
-        <div>
-            
-            <h3 class="fade-in two">{ I'm Coming }</h3>
-            
+<body id="top">
+
+    <div id="preloader">
+        <div id="loader"></div>
+    </div>
+
+    <div class="s-pagewrap">
+        <header class="s-header">
+
+            <div class="s-header__block">
+                <div class="s-header__logo">
+                    <a class="logo" href="index.html">
+                        <img src="images/gt_logo.svg" alt="Homepage">
+                    </a>
+                </div>
+
+                <a class="s-header__menu-toggle" href="javascript:void(0)"><span>Menu</span></a>
+            </div> <!-- end s-header__block -->
+
+            <div class="row s-header__nav-wrap">
+                <nav class="s-header__nav">
+                    <ul>
+                        <li class="current"><a href="#intro" class="smoothscroll">Intro</a></li>
+                        <li><a href="#services" class="smoothscroll">What We Do</a></li>
+                        <li><a href="#works" class="smoothscroll">Our Works</a></li>
+                        <li><a href="#team" class="smoothscroll">Our Team</a></li>
+                        <li><a href="#contact" class="smoothscroll">Get In Touch</a></li>
+                    </ul>
+                </nav>
+
+                <ul class="s-header__social">
+                    <li>
+                        <a href="javascript:void(0)">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64h98.2V334.2H109.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H255V480H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64z"/></svg>
+                            <span class="screen-reader-text">Facebook</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg>
+                            <span class="screen-reader-text">Twitter</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/graphitonic" target="_blank" rel="noreferrer nofollow">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+                            <span class="screen-reader-text">Instagram</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </header>
+        <section id="intro" class="s-intro target-section">
+
+            <div class="row">
+                <div class="column">
+                    <div class="s-intro__top-block">
+                        <span class="s-intro__bg"></span>
+
+                        <h2 class="s-intro__text">
+                            Bringing Your Vision <br>
+                            to Life Through Design, <br>
+                            Video, and Web Innovation<span>.</span>
+                        </h2>
+
+                        <a href="#services" class="s-intro__scroll-down smoothscroll">
+                            <span>Scroll Down</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"/></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row row-x-center s-intro__about-wrap">
+                <div class="column s-intro__about">
+                    <h1 class="s-intro__about-title">Hello, We Are GraphiTonic.</h1>
+
+                    <p>
+                        Your one-stop solution for all things creative and digital. We are a dynamic startup dedicated
+                        to bringing your vision to life through innovative graphic design, engaging video editing, and
+                        cutting-edge web development services. Our team of skilled professionals is passionate about
+                        delivering high-quality, tailor-made solutions to meet your unique needs.
+                    </p>
+
+                </div>
+            </div>
+
+        </section>
+        <section id="services" class="s-services target-section">
+
+            <div class="row section-header has-bottom-sep">
+                <div class="column lg-12">
+                    <h3 class="text-pretitle">What We Do</h3>
+                    <h2 class="text-display-title">
+                        Transforming Ideas into <br>
+                        Stunning Designs,Engaging <br>
+                        Videos, and Dynamic Websites.
+                    </h2>
+                </div>
+            </div> <!-- end section-header -->
+
+            <div class="row services-list block-lg-one-half block-tab-whole" data-animate-block>
+
+                <div class="column service-item" data-animate-el>
+                    <div class="service-icon-block">
+                        <span class="service-icon service-icon--graphic"></span>
+                    </div>
+                    <div class="service-text">
+                        <h1 class="h4">Graphic Design</h1>
+                        <p>We believe that great design is the foundation of effective communication. Our graphic design
+                            services include:
+                        <ul class="disc">
+                            <li><b>Logo Design:</b> Crafting unique and memorable logos that represent your brand
+                                identity.</li>
+                            <li><b>Branding:</b> Developing comprehensive branding packages, including business cards,
+                                letterheads, and promotional materials.</li>
+                            <li><b>Marketing Materials:</b> Designing eye-catching brochures, flyers, posters, and
+                                social media graphics to boost your marketing efforts.</li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="column service-item" data-animate-el>
+                    <div class="service-icon-block">
+                        <span class="service-icon service-icon--video"></span>
+                    </div>
+                    <div class="service-text">
+                        <h1 class="h4">Video Editing</h1>
+                        <p>Whether you need a promotional video, a corporate presentation, or a creative film project,
+                            our video editing team is here to make it happen. Our services include:
+                        <ul class="disc">
+                            <li><b>Commercials:</b> Producing high-quality commercials that captivate your audience and
+                                drive engagement.</li>
+                            <li><b>Corporate Videos:</b> Creating professional videos for internal and external
+                                communications.</li>
+                            <li><b>Creative Projects:</b> Editing music videos, short films, and other creative content
+                                with a touch of flair and originality.</li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="column service-item" data-animate-el>
+                    <div class="service-icon-block">
+                        <span class="service-icon service-icon--webdev"></span>
+                    </div>
+                    <div class="service-text">
+                        <h1 class="h4">Web Development</h1>
+                        <p>In today’s digital age, a strong online presence is crucial. Our web development services
+                            ensure that your website is not only visually appealing but also functional and
+                            user-friendly. We offer:
+                        <ul class="disc">
+                            <li><b>Custom Website Design:</b> Building bespoke websites tailored to your brand and
+                                business goals.</li>
+                            <li><b>E-commerce Solutions:</b> Developing robust e-commerce platforms to help you sell
+                                your products and services online.</li>
+                            <li><b>Maintenance and Support:</b> Providing ongoing maintenance and support to ensure your
+                                website remains up-to-date and secure.</li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="column service-item" data-animate-el>
+                    <div class="service-icon-block">
+                        <span class="service-icon service-icon--appdev"></span>
+                    </div>
+                    <div class="service-text">
+                        <h1 class="h4">App Development</h1>
+                        <p>Our app development services are designed to create intuitive and user-friendly applications
+                            that enhance your business operations and customer engagement. We offer:
+                        <ul class="disc">
+                            <li><b>Android and iOS Apps:</b> Developing apps that provide seamless experiences across
+                                all devices.</li>
+                            <li><b>Custom App Solutions:</b> Tailoring apps to meet your specific business needs and
+                                objectives.</li>
+                            <li><b>App Maintenance and Support:</b> Ensuring your app remains up-to-date with the latest
+                                features and security enhancements.</li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="works" class="s-works target-section">
+
+            <div class="row section-header section-header--dark has-bottom-sep">
+                <div class="column lg-12">
+                    <h3 class="text-pretitle">Recent Works</h3>
+                    <h2 class="text-display-title">Here are some of our favorite projects we have done lately. Feel free
+                        to check them out.</h2>
+                </div>
+            </div> <!-- end section-header -->
+
+            <div class="row folio-list block-lg-one-third block-tab-one-half block-stack-on-550 collapse"
+                data-animate-block>
+
+                <div class="column">
+                    <div class="folio-item" data-animate-el>
+                        <div class="folio-item__thumb">
+                            <a class="folio-item__thumb-link" href="images/portfolio/gallery/1.webp"
+                                title="Csi Bodyshop Opening" data-size="4419x6250">
+                                <img src="images/portfolio/gallery/1.webp" alt="Csi Bodyshop Opening">
+                            </a>
+                        </div>
+                        <div class="folio-item__info">
+                            <div class="folio-item__cat">Poster</div>
+                            <h4 class="folio-item__title">CSI Bodyshop Opening</h4>
+                        </div>
+                        <div class="folio-item__caption">
+                            <p>_</p>
+                        </div>
+                    </div>
+                </div> <!-- end column -->
+                <div class="column">
+                    <div class="folio-item" data-animate-el>
+                        <div class="folio-item__thumb">
+                            <a class="folio-item__thumb-link" href="images/portfolio/gallery/2.webp"
+                                title="Hypersonic Opening" data-size="651x651">
+                                <img src="images/portfolio/gallery/2.webp" alt="Hypersonic Opening">
+                            </a>
+                        </div>
+                        <div class="folio-item__info">
+                            <div class="folio-item__cat">Poster</div>
+                            <h4 class="folio-item__title">Hypersonic Bongaigaon coming soon</h4>
+                        </div>
+                        <div class="folio-item__caption">
+                            <p>_</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="folio-item" data-animate-el>
+                        <div class="folio-item__thumb">
+                            <a class="folio-item__thumb-link" href="images/portfolio/gallery/maxxlink_standee.jpg"
+                                title="Maxxlink Standee" data-size="325x651">
+                                <img src="images/portfolio/gallery/maxxlink_standee_th.jpg" alt="Maxxlink Standee">
+                            </a>
+                        </div>
+                        <div class="folio-item__info">
+                            <div class="folio-item__cat">Standee</div>
+                            <h4 class="folio-item__title">Maxxlink Standee For CSI Showroom</h4>
+                        </div>
+                        <div class="folio-item__caption">
+                            <p>_</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="folio-item" data-animate-el>
+                        <div class="folio-item__thumb">
+                            <a class="folio-item__thumb-link" href="images/portfolio/gallery/csi X ideautoworks.png"
+                                title="CSI X IDEAutoworks" data-size="651x651">
+                                <img src="images/portfolio/gallery/csi X ideautoworks.png" alt="CSI X IDEAutoworks">
+                            </a>
+                        </div>
+                        <div class="folio-item__info">
+                            <div class="folio-item__cat">Poster</div>
+                            <h4 class="folio-item__title">CSI x IDEAutoworks</h4>
+                        </div>
+                        <div class="folio-item__caption">
+                            <p>_</p>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- folio-list -->
+
+            <div class="row clients-outer" data-animate-block>
+                <div class="column lg-12">
+
+                    <h3 class="text-clients-title" data-animate-el>
+                        Partnering with Leading Brands<br>
+                        for Exceptional Digital Solutions.
+                    </h3>
+
+                    <div class="swiper-container clients" data-animate-el>
+                        <div class="swiper-wrapper clients__content">
+                            <a href="javascript:void(0)" title="" class="swiper-slide clients__slide"><img
+                                    src="images/icons/clients/csi.svg" /></a>
+                            <a href="javascript:void(0)" title="" class="swiper-slide clients__slide"><img
+                                    src="images/icons/clients/hyp_bong.svg" /></a>
+                            <a href="javascript:void(0)" title="" class="swiper-slide clients__slide"><img
+                                    src="images/icons/clients/big_daddy.svg" /></a>
+                            <a href="javascript:void(0)" title="" class="swiper-slide clients__slide"><img
+                                    src="images/icons/clients/csi.svg" /></a>
+                            <a href="javascript:void(0)" title="" class="swiper-slide clients__slide"><img
+                                    src="images/icons/clients/hyp_bong.svg" /></a>
+                            <a href="javascript:void(0)" title="" class="swiper-slide clients__slide"><img
+                                    src="images/icons/clients/big_daddy.svg" /></a>
+                            <a href="javascript:void(0)" title="" class="swiper-slide clients__slide"><img
+                                    src="images/icons/clients/csi.svg" /></a>
+                            <a href="javascript:void(0)" title="" class="swiper-slide clients__slide"><img
+                                    src="images/icons/clients/hyp_bong.svg" /></a>
+                        </div>
+
+                        <div class="swiper-pagination"></div>
+                    </div>
+
+                </div>
+            </div> <!-- end clients-outer -->
+
+            <!-- <div class="video-block">
+                <span class="video-block__bg-left"></span>
+                <span class="video-block__bg-right"></span>
+
+                <div class="video-block__content">
+                    <a href="https://player.vimeo.com/video/14592941?color=00a650&title=0&byline=0&portrait=0" class="video-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M7 6L7 18 17 12z"></path></svg>
+                    </a>
+
+                    <p class="video-caption">
+                        Watch Video
+                    </p>
+                </div>
+            </div>  -->
+        </section> <!-- end s-works -->
+        <section id="team" class="our-team target-section">
+            <span>meet our</span>
+            <h2>Team</h2>
+            <p>With a vision to revolutionize the creative industry, Bikash Das founded GraphiTonic to offer innovative
+                and high-quality design, video, web, and app development services. With 3 years of experience in the
+                industry, GraphiTonic leads the team with a commitment to excellence and customer satisfaction.</p>
+            <span class="bg-watermark">team</span>
+            <div class="cards">
+                <div class="card">
+                    <img src="images/avatars/bikash.jpg" alt="Bikash">
+                    <div class="card-content">
+                        <h3>Bikash Das</h3>
+                        <p>Founder & Editor</p>
+                        <ul>
+                            <li><a href="https://www.instagram.com/_dasbikash._" target="_blank" rel="noreferrer nofollow"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="https://www.x.com/kaniskajit" target="_blank" rel="noreferrer nofollow"><i class="fa-brands fa-x-twitter"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/avatars/kj.webp" alt="Kaniskajit">
+                    <div class="card-content">
+                        <h3>Kaniskajit</h3>
+                        <p>Co-Founder & Web Developer</p>
+                        <ul>
+                            <li><a href="https://www.instagram.com/kaniskajit" target="_blank" rel="noreferrer nofollow"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="https://www.x.com/kaniskajit" target="_blank" rel="noreferrer nofollow"><i class="fa-brands fa-x-twitter"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/avatars/nitul.webp" alt="Nitul">
+                    <div class="card-content">
+                        <h3>Nitul Boro</h3>
+                        <p>Core Member & Graphic Designer</p>
+                        <ul>
+                            <li><a href="https://www.instagram.com/nitulborro" target="_blank" rel="noreferrer nofollow"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="https://open.spotify.com/artist/1d24O9NwB8UsF182oZTttJ" target="_blank" rel="noreferrer nofollow"><i class="fa-brands fa-spotify"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="s-contact target-section">
+
+            <div class="row section-header section-header--dark"">
+                <div class=" column lg-12">
+                <h3 class="text-pretitle">Get In Touch</h3>
+                <h2 class="text-display-title">
+                    Ready to transform your ideas into reality? Contact us today.
+                </h2>
+            </div>
+        
+
+            <div class="row row-x-center text-center s-contact__content">
+                <div class="column lg-12">
+                    <p class="lead">
+                        We look forward to collaborating with you and creating something extraordinary together!
+                    </p>
+                    <div class="btn-wrap">
+                        <a href="mailto:graphitonicstudio@gmail.com" class="btn btn--primary">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M64 112c-8.8 0-16 7.2-16 16l0 22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1l0-22.1c0-8.8-7.2-16-16-16L64 112zM48 212.2L48 384c0 8.8 7.2 16 16 16l384 0c8.8 0 16-7.2 16-16l0-171.8L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64l384 0c35.3 0 64 28.7 64 64l0 256c0 35.3-28.7 64-64 64L64 448c-35.3 0-64-28.7-64-64L0 128z"/></svg>
+                            Write An Email
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section> <!-- end s-contact -->
+        <footer class="s-footer">
+
+            <div class="row s-footer__top">
+                <div class="column lg-3 md-4 stack-on-700 s-footer__block contact-social">
+                    <h4 class="h6">Follow Us</h4>
+
+                    <ul class="contact-list">
+                        <li><a href="javascript:void(0)">Facebook</a></li>
+                        <li><a href="javascript:void(0)">Twitter</a></li>
+                        <li><a href="https://www.instagram.com/graphitonic" target="_blank" rel="noreferrer nofollow">Instagram</a></li>
+                    </ul>
+                </div>
+
+                <div class="column lg-3 md-12 s-footer__block contact-number">
+                    <h4 class="h6">Contact Us</h4>
+
+                    <ul class="contact-list">
+                        <li><a href="mailto:graphitonicstudio@gmail.com">graphitonicstudio@gmail.com</a></li>
+                        <li><a href="tel:8638386486">+91 8638386486</a></li>
+                    </ul>
+                </div>
+            </div> <!-- end s-footer__top -->
+
+            <div class="row s-footer__bottom">
+                <div class="column ss-copyright">
+                    <span>© Copyright GraphiTonic 2024</span>
+                </div>
+
+                <div class="ss-go-top">
+                    <a class="smoothscroll" title="Back to Top" href="#top">
+                        <span class="ss-go-top__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                style="fill:rgba(0, 0, 0, 1);transform:rotate(90deg);-ms-filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=1)">
+                                <path d="M6 4H18V6H6zM11 14L11 20 13 20 13 14 18 14 12 8 6 14z"></path>
+                            </svg>
+                        </span>
+                        <span class="ss-go-top__text">Back to Top</span>
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close"
+                        title="Close (Esc)"></button> <button class="pswp__button pswp__button--share"
+                        title="Share"></button> <button class="pswp__button pswp__button--fs"
+                        title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom"
+                        title="Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div>
+                <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+                <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
         </div>
     </div>
-<!--     <div class="copy-right">
-         @kaniskajit
-    </div> -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
 </body>
+
 </html>
